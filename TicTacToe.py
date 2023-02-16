@@ -38,7 +38,8 @@ if __name__ == "__main__":
     grid = [[" ", " ", " "], [" ", " ", " "], [" ", " ", " "]]
     p1 = input("Enter Player 1 name: ")
     p2 = input("Enter Player 2 name: ")
-    c = 0
+    c, c3 = 0, 0
+    row, col = 0, 0
 
     while True:
         c1 = 0
