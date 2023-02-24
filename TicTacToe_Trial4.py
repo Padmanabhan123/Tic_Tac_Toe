@@ -74,9 +74,6 @@ if __name__ == "__main__":
                     continue
                 if c3 == 1:
                     break
-            if row <= 0 or col <= 0:
-                print("Please enter an integer from 1-3")
-                continue
 
             try:
                 if grid[row][col] == " ":
